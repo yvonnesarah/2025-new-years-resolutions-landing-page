@@ -1,55 +1,73 @@
- body {
-            font-family: 'Arial, sans-serif';
-            margin: 0;
-            padding: 0;
-            background-color: #f0f8ff;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-        }
-        .resolution {
-            border: 1px solid #ddd;
-            margin: 10px auto;
-            padding: 15px;
-            max-width: 600px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            border: none;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-        }
+ /* Apply styles to the body */
+body {
+    font-family: 'Arial, sans-serif'; /* Use a clean, readable font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f0f8ff; /* Light blue background color */
+    color: #333; /* Dark gray text for readability */
+    text-align: center; /* Center text by default */
+}
 
+/* Style for the header section */
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text for contrast */
+    padding: 1em 0; /* Add padding for better spacing */
+}
+
+/* Ensure h1 elements inside the header have no extra margin */
+h1 {
+    margin: 0;
+}
+
+/* General content wrapper */
+.content {
+    padding: 20px; /* Add spacing around content */
+}
+
+/* Style for individual resolution sections */
+.resolution {
+    border: 1px solid #ddd; /* Light gray border */
+    margin: 10px auto; /* Center the box and add spacing */
+    padding: 15px; /* Inner spacing */
+    max-width: 600px; /* Limit the width */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add subtle shadow */
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%; /* Make sure images don’t overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Style for buttons */
+button {
+    margin-top: 10px; /* Add space above the button */
+    padding: 10px 20px; /* Adjust button size */
+    border: none; /* Remove default border */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text for contrast */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Style for the footer */
+footer {
+    margin-top: 20px; /* Add space above the footer */
+    padding: 10px; /* Padding for spacing */
+    background-color: #4CAF50; /* Match header color */
+    color: white; /* White text for contrast */
+}
+
+/* Style for the introduction section */
 .introduction {
     background-color: #f4f4f9; /* Light gray background */
     padding: 20px; /* Add some space inside the section */
@@ -60,18 +78,20 @@
     font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
 }
 
+/* Style for introduction headings */
 .introduction h2 {
     color: #333; /* Dark gray for the heading */
-    font-size: 2em; /* Make the heading a bit larger */
-    margin-bottom: 15px; /* Space between the heading and paragraph */
+    font-size: 2em; /* Increase heading size */
+    margin-bottom: 15px; /* Space between heading and paragraph */
     text-align: center; /* Center the heading */
 }
 
+/* Style for introduction paragraph */
 .introduction p {
     color: #555; /* Slightly lighter gray for the paragraph */
     font-size: 1.1em; /* Slightly larger text for readability */
-    line-height: 1.6; /* Line height to improve readability */
+    line-height: 1.6; /* Improve readability with proper line spacing */
     text-align: center; /* Center the paragraph */
-    max-width: 700px; /* Limit paragraph width for better line breaks */
+    max-width: 700px; /* Limit paragraph width for better readability */
     margin: 0 auto; /* Center the paragraph */
 }
